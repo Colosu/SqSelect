@@ -12,7 +12,7 @@ Installation:
 - Install Flask and PyTorch with command "pip3 install flask torch".
 
 Execution:
-- Run SqaSelect.jar with comand "java -jar SqaSelect.jar"
+- Run SqaSelect.jar with command "java -jar SqaSelect.jar"
 - A graphical interface should open.
 
 Way of use:
