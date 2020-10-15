@@ -1,0 +1,32 @@
+Instructions for the SqaSelect program:
+
+Requisites:
+- Java 14 or greater
+- Python 3 or greater
+- Python Flask Server
+- Python PyTorch
+
+Installation:
+- Install latest version of Java (from repositories or from its web).
+- Install python 3 or greater (from repositories or from its web).
+- Install Flask and PyTorch with command "pip3 install flask torch".
+
+Execution:
+- Run SqaSelect.jar with comand "java -jar SqaSelect.jar"
+- A graphical interface should open.
+
+Way of use:
+- Select the mode of use from the "mode of use" dropdown.
+- Fill the forms provided.
+- The "Open File" button will open a popup to select a file. The selected file should be a .dot file with a graph whose starting node is red.
+- Select between Pearson and Spearman correlations.
+- Use the "Compute" button to start the computation.
+- Use the "Reset" button to reset the program to its initial state.
+- Use the "Save File" button to save the generated plot using the popup.
+- Use the "Exit" button to close the program.
+
+Modes of use:
+- Get Alpha: Providing the parameters from the form, the program gives back the best alpha for assessing the likelihood of having FEP using Rényi's Squeeziness.
+- Get Alpha from File: Providing the file with the FSM and the search depth, the program gives back the best alpha for assessing the likelihood of having FEP using Rényi's Squeeziness.
+- Get Squeeziness: Providing the file with the FSM and the search depth, the program gives back the Rényi's Squeeziness value for the given search depth using the best alpha for assessing the likelihood of having FEP.
+- Get all Squeeziness: Providing the file with the FSM and the search depth, the program gives back the Rényi's Squeeziness value until the given search depth using the best alpha for assessing the likelihood of having FEP.
